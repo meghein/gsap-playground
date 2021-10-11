@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#banner-bg {
+  background-image: url(../images/bg01.jpg);
+  height: 250px;
+  width: 300px;
+}
+
+#green-swirl {
+  position: relative;
+  top: 100px;
+  left: 125px;
+  height: 100%;
+}
+#blue-swirl {
+  position: relative;
+  bottom: 360px;
+  left: 145px;
+  height: 100%;
+}
+#yellow-swirl {
+  position: relative;
+  bottom: 500px;
+  left: -140px;
+  height: 100%;
+}
